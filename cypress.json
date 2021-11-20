@@ -1,0 +1,8 @@
+{
+    "baseUrl": "https://treinamento-api.herokuapp.com",
+    "$schema": "https://on.cypress.io/cypress.schema.json",
+    "reporter": "cypress-multi-reporters",
+    "reporterOptions": {
+        "configFile": "reporter-config.json"
+    }
+}
