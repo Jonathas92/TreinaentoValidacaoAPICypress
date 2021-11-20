@@ -5,9 +5,9 @@
     "passes": 1,
     "pending": 0,
     "failures": 0,
-    "start": "2021-11-20T14:52:07.982Z",
-    "end": "2021-11-20T14:52:08.221Z",
-    "duration": 239,
+    "start": "2021-11-20T14:52:18.748Z",
+    "end": "2021-11-20T14:52:18.951Z",
+    "duration": 203,
     "testsRegistered": 1,
     "passPercent": 100,
     "pendingPercent": 0,
@@ -18,7 +18,7 @@
   },
   "results": [
     {
-      "uuid": "60092cbf-2163-406c-a565-52ea6672fffa",
+      "uuid": "90da8ce0-0e35-4b25-b670-b071e39f884c",
       "title": "",
       "fullFile": "cypress/integration/ping.spec.js",
       "file": "cypress/integration/ping.spec.js",
@@ -27,7 +27,7 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "36406253-4085-4eab-b90d-6eff46fdec2d",
+          "uuid": "4104893b-e3d0-4b0c-8f9c-b5aa34e89d3b",
           "title": "Ping",
           "fullFile": "",
           "file": "",
@@ -38,7 +38,7 @@
               "title": "Validar se a aplicação está ok @healthcheck",
               "fullTitle": "Ping Validar se a aplicação está ok @healthcheck",
               "timedOut": null,
-              "duration": 164,
+              "duration": 159,
               "state": "passed",
               "speed": "fast",
               "pass": true,
@@ -47,20 +47,20 @@
               "context": null,
               "code": "//get https://treinamento-api.herokuapp.com/ping\n//request\n_requests.default.getPing().then(getPingResponse => {\n  _assertions.default.shouldHaveStatus(getPingResponse, 201);\n}); //requests\n// asserções\n// cy.request -> response -> body, status, headers\n//its é usado para pegar qual é o retorno que quer utilizar no seu comando. Nesse exemplo pegamos o status para verificar se o retorno é 201.",
               "err": {},
-              "uuid": "79a05b60-48b6-47fa-94c9-2baaa54fece9",
-              "parentUUID": "36406253-4085-4eab-b90d-6eff46fdec2d",
+              "uuid": "ce53bd9a-3190-4d2e-b504-5ee1654c1567",
+              "parentUUID": "4104893b-e3d0-4b0c-8f9c-b5aa34e89d3b",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "79a05b60-48b6-47fa-94c9-2baaa54fece9"
+            "ce53bd9a-3190-4d2e-b504-5ee1654c1567"
           ],
           "failures": [],
           "pending": [],
           "skipped": [],
-          "duration": 164,
+          "duration": 159,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
