@@ -1,6 +1,7 @@
 ﻿# TreinaentoValidacaoAPICypress
 
 Setup
+
 Pré-requisitos:
 Instalar o NodeJS
 Instalar um editor de texto, como o Visual Studio Code
